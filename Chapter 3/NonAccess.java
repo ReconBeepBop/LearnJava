@@ -1,7 +1,15 @@
 /* 
 final - can no longer change
 static - can call without creating an object of the classs
-abstract - 
+abstract - belongs to the abstract class, without a body.
+
+attributes and methods:
+final 
+static
+abstract
+transient -> attributes + methods skipped when serialising object
+synchronized -> methods can only be accessed one thread at a time
+volatile -> value of attribute not cached thread locally, read from main memory
 */ 
 
 public class NonAccess {
